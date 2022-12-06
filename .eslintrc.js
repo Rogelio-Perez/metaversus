@@ -18,6 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    semi: ['error', 'never'],
+    quotes: ['error', 'single'],
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
@@ -36,6 +38,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'jsx-quotes': ['error', 'prefer-single'],
     'react/function-component-definition': [
       2,
       {
@@ -96,4 +99,4 @@ module.exports = {
       },
     ],
   },
-};
+}
